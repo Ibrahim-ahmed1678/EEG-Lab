@@ -8,7 +8,7 @@ using **time–frequency (spectrogram) representations**.
 
 ---
 
-## 🔧 Requirements
+##  Requirements
 
 - MATLAB (R2019b or newer recommended)
 - EEGLAB (tested with v2025+)
@@ -20,7 +20,7 @@ See `requirements.md` for installation notes.
 
 ---
 
-## 🚀 Pipeline Overview
+##  Pipeline Overview
 
 The pipeline performs the following steps:
 
@@ -54,9 +54,9 @@ The pipeline performs the following steps:
 - if test data were to influence normalization statistics, the performance of the model would be artificially improved which is not what we want
 
 
-## ▶️ How to Run
+##  How to Run
 
-### 1. Edit experiment parameters
+### Edit experiment parameters
 Open `run_pipeline.m` and modify only the **USER INPUTS** section:
 ```matlab
 recordings = {...};
